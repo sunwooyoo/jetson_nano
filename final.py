@@ -50,8 +50,8 @@ dataset_path = '/home/swyoo/diff_cnn/sunwoo_siam/siam_CNN/jetson_nano/mitbih_dat
 checkpoint_name = 'test.pth'
 device = torch.device('cuda:7')
 
-patients = [ 213, 214, 219, 221, 222, 228, 231, 232, 233, 234]
-#100, 103, 105, 111, 113, 117, 121, 123, 200, 202, 210, 212,
+patients = [ 100, 103, 105, 111, 113, 117, 121, 123, 200, 202, 210, 212, 213, 214, 219, 221, 222, 228, 231, 232, 233, 234]
+
 k = 10
 n_segments = k
 std_dist = 0.2 # std 구하기
